@@ -66,3 +66,7 @@ table {
 body {
     min-width: 428px;
 }
+
+@media screen and (min-width: 435px){
+    
+}
