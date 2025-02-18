@@ -56,10 +56,12 @@ table {
 :root {
     font-family: "Habibi", serif;
     font-size: 1.25em;
-    --green:#06A816;
-    --orange:#E75D02;
-    --black:#000000;
-    --white:#ffffff;
+    --Teal: #4CA7C0;
+    --Purple: #484FB7;
+    --Lavender: #6B8FE7;
+    --Yellow: #E9BB57;
+    --Pink: #D9526F;
+    --White: #ffffff;
 }
 
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
@@ -68,5 +70,25 @@ body {
 }
 
 @media screen and (min-width: 435px){
-    
+    h1, h2 {
+        font-family: "Kavoon";
+    }
+    h3, h4, p {
+        font-family: "Inter";
+    }
+    h1 {
+        font-size: 3em;
+    }
+    nav h2 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    h3 {
+        font-size: 1.5em;
+    }
+    h4 {
+        font-size: 1.15em;
+    }
 }
