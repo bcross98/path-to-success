@@ -91,4 +91,115 @@ body {
     h4 {
         font-size: 1.15em;
     }
+
+    body {
+        background-color: var(--Purple);
+    }
+    header h1 {
+        background-color: var(--Lavender);
+        color: var(--White);
+        border-radius: 0px 0px 30px 30px;
+        padding: 1em 0.5em 0.5em 0.5em;
+        z-index: 2;
+        text-align: center;
+    }
+    header p {
+        background-color: var(--Pink);
+        color: var(--White);
+        border-radius: 0px 0px 30px 30px;
+        padding: 0.5em;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        z-index: 1;
+        text-align: center;
+    }
+    #smallDescription {
+        display: block;
+    }
+    #largeDescription {
+        display: none;
+    }
+    nav {
+        background-color: var(--Yellow);
+        border-radius: 0px 0px 30px 30px;
+        padding: 0 1em 1em 1em;
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+    nav:hover {
+        cursor: pointer;
+    }
+    nav ul {
+        display: none;
+    }
+
+    #services {
+        padding: 1em;
+    }
+    #services section {
+        background-color: var(--White);
+        border-radius: 30px;
+        margin: 1em;
+        padding: 1em;
+    }
+    #services h4 {
+        color: var(--Purple);
+        font-weight: bold;
+        padding-top: 1em;
+        padding-bottom: 0.5em;
+    }
+    #services h2 {
+        color: var(--White);
+        padding-bottom: 0.15em;
+    }
+    #services h3 {
+        color: var(--Yellow);
+        font-weight: bold;
+    }
+    #services p {
+        line-height: 1.25em;
+    }
+
+    #whyChoose {
+        background-color: var(--Pink);
+    }
+    #whyChoose h2 {
+        color: var(--White);
+        padding: 0.5em;
+    }
+    #whyChoose ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    #whyChoose li {
+        text-align: center;
+        margin: 0.5em;
+        border-radius: 30px;
+        padding: 2em;
+        font-weight: bold;
+    }
+    #whyChoose li:nth-child(1) {
+        background-color: var(--Teal);
+    }
+    #whyChoose li:nth-child(2) {
+        background-color: var(--Lavender);
+    }
+    #whyChoose li:nth-child(3) {
+        background-color: var(--Yellow);
+    }
+    #whyChoose li:nth-child(4) {
+        background-color: var(--White);
+    }
+
+    #pricing h2 {
+        color: var(--White);
+        padding: 0.5em;
+    }
+    #pricing h3 {
+        color: var(--Yellow);
+        font-weight: bold;
+        padding: 0.5em;
+    }
 }
