@@ -357,3 +357,11 @@ body {
         grid-template-rows: auto;
     }
 }
+
+@media screen and (min-width: 1762px) {
+    body {
+        max-width: 1762px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
