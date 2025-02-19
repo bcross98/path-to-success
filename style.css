@@ -286,5 +286,24 @@ body {
         grid-column: 1/span 2;
     }
 
-    
+    #whyChoose ul {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    #pricing div{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+
+    #firstStep div{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+    }
+    #firstStep div a {
+        margin: auto;
+        padding: auto;
+    }
 }
