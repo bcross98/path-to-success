@@ -133,11 +133,13 @@ body {
     nav ul {
         display: none;
         color: black;
-        grid-template-columns: auto auto;
-        grid-template-rows: auto auto;
+        grid-template-columns: repeat(4, auto);
+        grid-template-rows: auto;
     }
     nav ul a {
         text-decoration: none;
+        font-size: 0.65em;
+        padding-left: 1em;
     }
     nav ul a:visited {
         color: black;
@@ -284,6 +286,11 @@ body {
     }
     #largeDescription {
         display: block;
+    }
+
+    nav ul a {
+        font-size: 1em;
+        padding-left: 1em;
     }
 
     #services div div {
