@@ -6,8 +6,15 @@
     <title>Path to Success</title>
     <link rel="stylesheet" href="style.css">
     <script>
+        //I thought this would be a fun way to get the menu button to go in and out. I'd go farther, but I think this works well enough.
         function menuClick(){
-            
+            document.getElementById('links').style.display = 'grid';
+            document.getElementById('menuButton').style.display = 'none';
+
+            setTimeout(function() {
+                document.getElementById('links').style.display = 'none';
+                document.getElementById('menuButton').style.display = 'block';
+            }, 5000);
         }
     </script>
 </head>
@@ -19,8 +26,8 @@
     </header>
 
     <nav>
-        <h2>Menu</h2>
-        <ul>
+        <h2 onclick="menuClick()" id="menuButton">Menu</h2>
+        <ul id="links">
             <li><a href="#services">Our Services</a></li>
             <li><a href="#whyChoose">Why Choose Us</a></li>
             <li><a href="#pricing">Prices</a></li>

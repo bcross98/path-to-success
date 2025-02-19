@@ -132,6 +132,15 @@ body {
     }
     nav ul {
         display: none;
+        color: black;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+    nav ul a {
+        text-decoration: none;
+    }
+    nav ul a:visited {
+        color: black;
     }
 
     #services {
